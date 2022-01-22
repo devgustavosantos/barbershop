@@ -19,6 +19,7 @@
 
     /* Lista de Larguras */
     --larg-padrao: 1200px;
+    --larg-min: 504px;
 
 }
 
@@ -28,15 +29,30 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: var(--fonte2);
+
+}
+
+h2 {
+    font-family: var(--fonte1);
+    color: var(--cor2);
+}
+
+a {
+    text-decoration: none;
+}
 header {
     background-color: white;
     box-shadow: 0px 2px 8px 0px black;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
 }
 
 .container{
     max-width: var(--larg-padrao);
+
     margin: auto;
     
 }
@@ -89,6 +105,8 @@ nav > a {
 
 .banner {
     background-image: url('../images/barbearia-fundo.jpg');
+    min-width: 504px;
+
 }
 
 .conteudo-banner {
@@ -133,20 +151,130 @@ nav > a {
     background-image: url('../images/desenho-pente-tesoura.jpg');
 }
 
+.clareamento {
+    background-color: #ffffffad;
+}
+
+.escurecimento {
+    background-color: rgba(0, 0, 0, 0.637);
+    height: 100%;
+    width: 100%;
+}
+
 .cont-ap {
-    padding: 2px;
-    height: 600px;
+ /*    padding: 2px; */
+    height: 640px;
+    /* position: relative; */
 }
 
 
 .quad-ap {
     display: inline-block;
-    width: 33%;
-    height: 100%;
-    background-color: yellow;
+    width: 376px;
+    height: 580px;
+   /*  background-color: yellow; */
     padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+#quad1 {
+    font-size: 20px;
+    font-family: var(--fonte2);
+    padding-top: 80px;
+   
 }
 
-.quad-ap > img{
-    width: 100%;
+#quad1 > h2 {
+    font-size: 3em;
 }
+
+
+    
+.quad-ap > img{
+    height: 80%;
+    display: block;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.marg {
+    margin: 20px 0px;
+}
+
+#quad3 {
+    background-image: url('../images/contando-cabelo-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.cont-quad {
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 1.9em;
+    padding: 38px;
+    padding-top: 350px;
+    
+}
+
+.cont-quad > h2{
+    color: white;
+    font-weight: 400;
+    font-size: 77px;
+
+}
+
+
+/* 
+Estilos da seção 3
+Estilos da seção 3
+Estilos da seção 3
+Estilos da seção 3
+Estilos da seção 3
+ */
+
+ .servicos {
+     background-color: #f3a03933;
+ }
+
+ .servicos > .container {
+     padding: 50px 0px;
+ }
+
+ .topo-servicos {
+     text-align: center;
+     margin-bottom: 100px;
+ }
+
+ .topo-servicos > img {
+    height: 150px;
+ }
+
+ .topo-servicos > h2 {
+    font-weight: 400;
+    font-size: 80px;
+    margin-top: -25px;
+ }
+
+ .topo-servicos > p {
+     
+     font-weight: 600;
+     font-size: 20px;
+     font-style: italic;
+ }
+
+ .quad-servicos {
+     display: inline-block;
+     margin: 10px;
+     padding: 10px;
+     width: 48%;   
+
+     border: 1px solid rgba(0, 0, 0, 0.438);
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px #00000070;
+
+
+ }
