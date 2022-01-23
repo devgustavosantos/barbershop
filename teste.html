@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,43 +8,179 @@
     <title>Document</title>
 </head>
 <style>
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    .container {
-        background-color: red;
-        width: 600px;
-        height: 200px;
-        margin: 100px;
-        
+    body {
+        padding: 10px;
+        min-width: 320px;
     }
 
+    div {
+        margin: 0;
+    }
+
+    .container {
+        background-color: red;
+        max-width: 1200px;
+        min-width: 200px;
+        min-height: 220px;
+        margin: auto;
+        padding-top: 1px;
+        padding-bottom: 1px;
+
+    }
+
+
+
     .qua {
+        overflow: hidden;
         background-color: yellow;
-        height: 90%;
-        width: 28%;
+        height: 400px;
+        max-width: 31.3%;
+        min-width: 5%;
         border: 1px solid black;
         display: inline-block;
         margin: 10px;
+        padding: 10px;
+    }
+
+    .qua3 {
+        overflow: hidden;
+    }
+
+    .erro {
+        visibility: hidden;
+    }
+
+    @media screen and (max-width: 1200px) {
+
+        .qua {
+            max-width: 31%;
+            min-width: 5%;
+        }
+
 
     }
+
+
+    @media screen and (max-width: 1000px) {
+
+        .qua {
+            max-width: 30.4%;
+            min-width: 5%;
+        }
+
+    @media screen and (max-width: 800px) {
+
+        .qua {
+            max-width: 45.9%;
+            min-width: 5%;
+        }
+        
+        .qua3 {
+            display: block;
+            margin: auto;
+        }
+       
+       
+       .container {
+        padding-top: 1px;
+        padding-bottom: 10px;
+       }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .qua {
+
+            max-width: 45.4%;
+            min-width: 5%;
+        }
+
+    @media screen and (max-width: 500px) {
+
+        .qua {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 75%;
+
+        }
+
+    @media screen and (max-width: 400px) {
+
+            .qua {
+
+                max-width: 85%;
+
+            }
+
+
+    }
+
+    @media screen and (max-width: 300px) {
+
+    .container {
+
+        visibility: hidden;
+
+    }
+
+    .erro {
+        position: fixed;
+        top: 100px;
+        font-size: 2em;
+        visibility: visible;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+
+}
 </style>
+
 <body>
     <div class="container">
         <div class="qua" style="overflow: hidden;">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p>
-        </div>
-        <div class="qua" style="overflow: hidden;">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis, repudiandae optio exercitationem.</p>
-
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
         </div>
         <div class="qua">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nesciunt ipsum veniam recusandae
+                odit et. Laudantium laborum possimus unde ducimus quam, suscipit eum facere harum odio perspiciatis,
+                repudiandae optio exercitationem.</p>
+
+        </div>
+        <div class="qua qua3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam qui laborum porro quibusdam totam debitis
+                molestiae ullam unde ducimus, cumque facere incidunt consectetur praesentium est a iste error architecto
+                saepe?</p>
 
         </div>
 
+
+
     </div>
+
+    <div class="erro"> Seu dispositivo é incompativel. <br> Por favor utiliza outra equipamento</div>
 </body>
+
 </html>
