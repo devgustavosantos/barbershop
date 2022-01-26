@@ -18,7 +18,7 @@
     --fonte2: 'Raleway', sans-serif;
 
     /* Lista de Larguras */
-    --larg-padrao: 1200px;
+    --larg-padrao: 920px;
     --larg-min: 504px;
 
 }
@@ -107,13 +107,14 @@ nav > a {
 .banner {
     background-image: url('../images/barbearia-fundo.jpg');
     min-width: 504px;
+    height: 850px;
 
 }
 
 .conteudo-banner {
     background-color: #000000b6;
     text-align: center;
-    padding: 400px 0px;
+    padding: 305px 0px;
     color: white;
 
 }
@@ -156,6 +157,10 @@ nav > a {
     background-color: #ffffffad;
 }
 
+.padding-ap {
+    padding: 50px 0px;
+}
+
 .escurecimento {
     background-color: rgba(0, 0, 0, 0.637);
     height: 100%;
@@ -171,11 +176,11 @@ nav > a {
 
 .quad-ap {
     display: inline-block;
-    width: 376px;
+    width: 31.6%;
     height: 580px;
    /*  background-color: yellow; */
     padding: 10px;
-    margin: 10px;
+    margin: 9px;
     overflow: hidden;
     text-align: center;
 }
@@ -193,11 +198,11 @@ nav > a {
 
     
 .quad-ap > img{
-    height: 80%;
+    width: 100%;
+    object-fit: contain;
     display: block;
-    margin-top: 15%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 45%;
+
 
 }
 
@@ -210,12 +215,14 @@ nav > a {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px black;
 }
 
 .cont-quad {
     color: white;
     font-family: var(--fonte2);
-    font-size: 1.9em;
+    font-size: 24px;
     padding: 38px;
     padding-top: 350px;
     
@@ -224,7 +231,7 @@ nav > a {
 .cont-quad > h2{
     color: white;
     font-weight: 400;
-    font-size: 77px;
+    font-size: 65px;
 
 }
 
@@ -247,7 +254,7 @@ Estilos da seção 3
 
  .topo-servicos {
      text-align: center;
-     margin-bottom: 100px;
+     margin-bottom: 50px;
  }
 
  .topo-servicos > img {
@@ -272,10 +279,8 @@ Estilos da seção 3
      overflow: hidden;
      margin: 10px;
      padding: 10px;
-     width: 48%;   
-
-     /* border: 1px solid rgba(0, 0, 0, 0.438); */
-     border-radius: 20px;
+     width: 22.4%;   
+     border-radius: 7px;
      box-shadow: 0px 0px 10px #00000070;
 
     text-align: center;
@@ -283,7 +288,177 @@ Estilos da seção 3
 
  .quad-servicos > img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 7px;
     
 
+}
+
+.quad-servicos > h3 {
+    font-size: 22px;
+    margin: 10px;
+    color: var(--cor2);
+}
+
+.bot-servicos {
+    display: block;
+    width: 230px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* 
+Estilos da seção 4 - Cortesia
+Estilos da seção 4 - Cortesia
+Estilos da seção 4 - Cortesia
+Estilos da seção 4 - Cortesia
+Estilos da seção 4 - Cortesia
+ */
+
+
+.cortesia {
+    background-image: url('../images/desenho-pente-tesoura.jpg');
+   
+}
+
+.container-cortesia {
+    padding: 75px 0;
+}
+
+.quad-cortesia {
+    display: inline-block;
+    width: 45.2%;
+    height: 600px;
+    margin: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#cifrao {
+    color: #11cd00;
+    font-weight: 600;
+    font-size: 3em;
+    text-shadow: 0px 0px 2px black;
+    margin-bottom: 20px;
+}
+
+.cont-cortesia {
+    text-align: center;
+    padding: 15% 0%;
+
+    font-weight: 700;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+
+.cont-cortesia h2 {
+    color: var(--cor3);
+    font-weight: 500;
+}
+
+.quad-img {
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+div.quad-cortesia > img {
+
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+/* 
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+ */
+
+ .contato {
+     height: 850px;
+     background-image: url('../images/fundo-tesouras.jpg');
+ }
+
+
+
+ .container-contato {
+     text-align: center;
+     color: white;
+     padding: 220px 0px;
+     font-size: 4.5em;
+     font-family: var(--fonte1);
+ }
+
+ .container-contato > #emoji {
+    font-size: 2em;
+}
+
+ #telefone {
+     font-family: var(--fonte2);
+ }
+
+
+
+
+ /* 
+Estilos do Footer
+Estilos do Footer
+Estilos do Footer
+Estilos do Footer
+Estilos do Footer
+ */
+
+
+
+ .footer1 {
+     background-image: url('../images/desenho-pente-tesoura.jpg');
+     
+ }
+
+ .footer1-cont {
+     padding: 0px 0px;
+     width: 570px;
+     margin: auto;
+ }
+
+ .quad-footer1 {
+     display: inline-block;
+     height: 80%;
+     margin: 20px
+ }
+
+ .footer1-cont  h4 {
+     font-family: var(--fonte1);
+     font-weight: 500;
+     font-size: 30px;
+     color: var(--cor2);
+     margin: 10px 0px;
+ }
+
+ .footer1-cont  li {
+    list-style: none;
+}
+
+ul a {
+    color: black;
+}
+
+ul a:hover {
+    font-weight: 700;
+}
+
+
+.footer2 {
+    background-color: #181818;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
 }
