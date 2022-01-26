@@ -462,3 +462,38 @@ ul a:hover {
     padding: 15px;
     line-height: 30px;
 }
+
+
+@media screen and (min-width: 1440px){
+    
+body {
+    zoom: 1.2;
+}
+    
+}
+
+@media screen and (min-width: 1920px){
+    
+    body {
+        zoom: 1.5;
+    }
+        
+    }
+
+@media screen and (min-width: 2048px){
+
+    body {
+        zoom: 1.8;
+    }
+        
+    }
+
+
+
+@media screen and (min-width: 3040px){
+
+    body {
+        zoom: 2.1;
+    }
+        
+    }
