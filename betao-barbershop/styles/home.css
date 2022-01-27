@@ -62,8 +62,11 @@ header {
     position: relative;
 }
 
-header > div > img{
+header > div > h1{
+    font-family: var(--fonte1);
+    color: var(--cor2);
     width: 150px;
+    margin: 5px 10px;
 }
 
 nav {
@@ -367,7 +370,7 @@ Estilos da seção 4 - Cortesia
 
 div.quad-cortesia > img {
 
-    width: 100%;
+    height: 110%;
     object-fit: cover;
 
 }
@@ -464,10 +467,75 @@ ul a:hover {
 }
 
 
+/* Medias querys */
+/* Medias querys */
+/* Medias querys */
+/* Medias querys */
+/* Medias querys */
+
+/* Medias querys  para telas pequenas*/
+
+@media (min-width: 320px) and (max-width: 759px){
+    body {
+        max-width: 759px;
+        min-width: 320px;
+    
+    }
+
+    header {
+        max-width: 100vw;
+        min-width: 100vw;
+    }
+
+    .container {
+        max-width: calc(100vw - 10px);
+    }
+
+
+
+}
+
+
+
+
+
+/* Medias querys  para telas medias*/
+
+@media (min-width: 760px) and (max-width: 959px){
+    .container{
+        max-width: 720px;
+    
+        margin: auto;
+        
+    }
+
+    .quad-ap {
+        width: 48.4%;
+    }
+
+   #quad2, #quad2 img {
+       display: none;
+   }
+
+   .quad-servicos {
+        width: 46.9%;
+   }
+
+   .quad-cortesia {
+    width: 44.1%;
+    }
+
+
+}
+
+
+
+/* Medias querys  para telas grandes*/
+
 @media screen and (min-width: 1440px){
     
 body {
-    zoom: 1.2;
+    zoom: 1.1;
 }
     
 }
@@ -475,7 +543,7 @@ body {
 @media screen and (min-width: 1920px){
     
     body {
-        zoom: 1.5;
+        zoom: 1.2;
     }
         
     }
