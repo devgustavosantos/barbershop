@@ -31,7 +31,7 @@
 
 body {
     font-family: var(--fonte2);
-    min-height: 300px;
+    
 
 }
 
@@ -109,7 +109,7 @@ nav > a {
 
 .banner {
     background-image: url('../images/barbearia-fundo.jpg');
-    min-width: 504px;
+    /* min-width: 504px; */
     height: 850px;
 
 }
@@ -476,23 +476,76 @@ ul a:hover {
 /* Medias querys  para telas pequenas*/
 
 @media (min-width: 320px) and (max-width: 759px){
+  
+    * {
+        max-width: 100vw;
+        
+    }
+
     body {
-        max-width: 759px;
-        min-width: 320px;
-    
+        max-width: 100vw;
+        padding: -1px;
     }
 
     header {
-        max-width: 100vw;
-        min-width: 100vw;
+        max-width: calc(100vw -1px);
+        
     }
 
     .container {
-        max-width: calc(100vw - 10px);
+        max-width: calc(100vw);
+        margin: auto;
+    }
+
+    .banner {
+        max-width: calc(100vw);
+        overflow: hidden;
+    }
+
+    .footer1-cont {
+        max-width: 100vw;
+    }
+
+    
+
+    header{
+        overflow: hidden;
+    }
+    
+    .banner {
+        overflow: hidden;
+    }
+
+    .apresentacao {
+        overflow: hidden;
+    }
+
+    .servicos {
+        overflow: hidden;
+    }
+
+    .cortesia {
+        overflow: hidden;
+    }
+
+    .contato {
+       overflow: hidden;
+    }
+
+    footer {
+        
     }
 
 
 
+
+
+
+
+
+
+
+    
 }
 
 
