@@ -58,6 +58,10 @@ header {
     
 }
 
+.pos-rel {
+    position: relative;
+}
+
 .cont-header {
     position: relative;
 }
@@ -494,6 +498,7 @@ ul a:hover {
 
     header {
         max-width: calc(100vw -1px);
+        z-index: 1;
         
     }
 
@@ -503,6 +508,14 @@ ul a:hover {
 
     .menu-mobile{
         display: block;
+
+    }
+
+    .botao {
+        /* background-color: var(--cor3); */
+        /* color: white; */
+        /* padding: 10px 20px; */
+        border-radius: 20vh;
     }
 
     .container {
@@ -518,13 +531,23 @@ ul a:hover {
 
     .banner {
         max-width: calc(100vw);
-        height: calc(100vh - 30px);
+        height: max(349px, 100vh);
         
     }
 
+    .banner > .escurecimento {
+        position: relative;
+    } 
+
 
     .conteudo-banner {
-        padding: 35vh 0px;
+       padding: 0;
+       width: 95vw;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+        
     }
 
     .conteudo-banner > img {
@@ -550,7 +573,7 @@ ul a:hover {
     /* section apresentacao */
 
     section.fundo.apresentacao {
-        padding: 0 0 173vw 0;
+        padding: 0 0 150vw 0;
     }
 
     .quad-ap{
@@ -567,11 +590,21 @@ ul a:hover {
         padding-top: 0px;
         padding-bottom: 50px;
         font-size: 8vw;
-        height: 183vw;
+        height: 140vw;
+        margin-bottom: 10vh;
     }
 
     #quad1 > h2 {
         font-size: 18vw;
+    }
+
+    .text-ap {
+        font-size: 5vw;
+        margin: 10vw 0;
+    }
+
+    .bot-ap {
+        font-size: 5vw;
     }
 
     #quad2 {
@@ -582,7 +615,11 @@ ul a:hover {
 
     .cont-quad {
         
-        padding-top: min(50%, 7em);
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .cont-quad > h2 {
