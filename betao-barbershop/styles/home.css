@@ -47,6 +47,7 @@ header {
     background-color: white;
     box-shadow: 0px 2px 8px 0px black;
     position: fixed;
+    z-index: 1;
     width: 100%;
     top: 0;
 }
@@ -211,8 +212,14 @@ nav > a {
     
 .quad-ap > img{
     width: 100%;
-    object-fit: contain;
-    display: block;
+    displa.quad-cortesia {
+    /* display: inline-block; */
+    width: 80vw;
+    height: 84vh;
+    margin: 10vw;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+}y: block;
     margin-top: 45%;
 
 
@@ -343,9 +350,8 @@ Estilos da seção 4 - Cortesia
     width: 45.2%;
     height: 600px;
     margin: 20px;
-    object-fit: cover;
-    overflow: hidden;
 }
+
 
 #cifrao {
     color: #11cd00;
@@ -372,7 +378,10 @@ Estilos da seção 4 - Cortesia
 }
 
 .quad-img {
-    overflow: hidden;
+    
+    background-image: url('../images/barbearia-entrada.jpg');
+    background-position: left center;
+    background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
 }
@@ -380,7 +389,14 @@ Estilos da seção 4 - Cortesia
 div.quad-cortesia > img {
 
     height: 110%;
-    object-fit: cover;
+    
+
+    /* display: inline-block; */
+    width: 80vw;
+    height: 84vh;
+    margin: 10vw;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
 
 }
 
@@ -626,6 +642,116 @@ ul a:hover {
        
         font-size: 20vw;
     }
+
+
+    /* section servicos */
+    .topo-servicos > img {
+        height: 25vw;
+    }
+
+    .topo-servicos > h2 {
+        font-size: 17vw;
+    }
+
+
+    .topo-servicos > p {
+        font-size: 5vw;
+    }
+
+    .quad-servicos {
+        margin: 5vw;
+        width: 90vw;
+        border-radius: 2vw;
+    }
+
+    .quad-servicos > h3 {
+        font-size: 9vw;
+        display: inline-block;
+    }
+
+    .bot-servicos {
+        width: 70vw;
+        height: 15vw;
+        font-size: 4.5vw;
+        font-weight: 500;
+        text-align: center;
+        padding: 5vw 0;
+        margin: 10vw auto;
+     
+    }
+
+
+    /* section cortesia */
+
+    .quad-cortesia {
+        /* display: inline-block; */
+        width: 80vw;
+        height: 84vh;
+        margin: 10vw;
+        /* object-fit: cover; */
+        /* overflow: hidden; */
+    }
+
+
+    .cont-cortesia {
+        height: 40vh;
+        padding: 0;
+    }
+
+    .quad-img {
+        background-image: url('../images/barbearia-entrada.jpg');
+        background-position: left center;
+        background-size: cover;
+        
+    }
+    .quad-img > img {
+        display: none;
+        
+    }
+
+
+    /* Contato */
+
+    .contato {
+        height: 100vh;
+    }
+
+    .container-contato {
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container-contato {
+        font-size: max(8vw, 39px);
+    }
+
+
+    /* Footer */
+    .quad-footer1 {
+        display: block;
+        width: 80vw;
+        margin: 5vw auto;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .footer1-cont h4 {
+        /* font-family: var(--fonte1); */
+        /* font-weight: 500; */
+        font-size: 8vw;
+        /* color: var(--cor2); */
+        /* margin: 10px 0px; */
+    }
+
+
+    
+    main {
+        overflow: hidden;
+    }
+
 
 
     .footer1-cont {
