@@ -505,6 +505,7 @@ ul a:hover {
     header {
         max-width: calc(100vw -1px);
         z-index: 1;
+        height: 8vh;
         
     }
 
@@ -517,10 +518,20 @@ ul a:hover {
 
     }
 
+    .desenho-menu {
+        font-size: 1px;
+        background-color: var(--cor1);
+        border-radius: 5px;
+        height: 7px;
+        width: 41px;
+        margin: 5px;
+        /* float: right; */
+        /* margin-right: calc(-100% + 10px); */
+    
+    }
+
     .botao {
-        /* background-color: var(--cor3); */
-        /* color: white; */
-        /* padding: 10px 20px; */
+       
         border-radius: 20vh;
     }
 
