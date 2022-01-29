@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+
+    .div2 {
+            width: 100vw;
+            padding: 10vw;
+            background-color: darkgoldenrod;
+            display: none;
+            position: fixed;
+            top: 40vh;
+            left: 0;
+        }
+
+    #menu {
+        position: relative;
+        opacity: 0;
+    }
+
+    label {
+        width: 28px;
+        height: 22px;
+        display: block;
+        cursor: pointer;
+        background-color: cyan;
+        position: fixed;
+        right: 0;
+    }
+
+    label span {
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background-color: darkblue;
+        display: block;
+        position: absolute;
+        transition: 0.9s ease-in-out;
+    }
+
+    label>span:nth-child(1) {
+        top: 0;
+
+    }
+
+    label>span:nth-child(2) {
+        top: 8px;
+    }
+
+    label>span:nth-child(3) {
+        top: 16px;
+        
+
+    }
+
+    #menu:checked+label span:nth-child(1) {
+        top: 8px;
+        transform: rotate(45deg);
+    }
+
+    #menu:checked+label span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu:checked+label span:nth-child(3) {
+        top: 8px;
+        transform: rotate(-45deg);
+    }
+
+    #menu:checked + #texto{
+        display: block;
+        opacity: 1;
+        position: relative;
+        top: 22px;
+    }
+
+    #menu:checked + label .div2 {
+        display: block;
+        opacity: 0.9;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <input type="checkbox" name="" id="menu">
+        <label for="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <div class="div2">
+                <ul>
+                    <li>Menu</li>
+                    <li>Logar</li>
+                    <li>Sair</li>
+                </ul>
+            </div>
+        </label>
+    
+    
+        
+    
+    
+    </div>
+
+
+
+</body>
+
+</html>
