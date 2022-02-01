@@ -97,6 +97,10 @@ nav > a {
     margin-left: 20px;
 }
 
+nav > a:hover {
+    font-weight: 800;
+}
+
 /* Classes Gerais *//* Classes Gerais *//* Classes Gerais */
 /* Classes Gerais *//* Classes Gerais *//* Classes Gerais */
 /* Classes Gerais *//* Classes Gerais *//* Classes Gerais */
@@ -294,6 +298,7 @@ ul a:hover {
         width: 100vw;
         overflow: hidden;
         box-shadow: inset 0px 20px 12px -20px black;
+        border-bottom: 1px solid #0000004f;
         display: none;
     }
 
@@ -303,6 +308,7 @@ ul a:hover {
         padding: 3vh 0;
         font-weight: 600;
         font-size: 3vh;
+        color: var(--cor1);
     }
 
     #mobile:checked+label .itens-menu-mobile {
