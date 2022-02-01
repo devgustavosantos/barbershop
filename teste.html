@@ -16,62 +16,55 @@
     html, body {
         height: 100%;
     }
-    .menus {
-        display: none;
-    }
-    .container{
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    #checkbox-menu{
-        position: absolute;
-        opacity: 1;
-    }
-
-    label {
-        cursor: pointer;
+    .div1 {
+        width: 500px;
+        height: 500px;
+        background-color: red;
         position: relative;
-        display:block;
-        height: 22px;
-        width: 30px;
-        transition: 1s ease-in-out;
+        z-index: 10;
     }
 
-    label span {
-        position: absolute;
-        display: block;
-        height: 5px;
+    .div2 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(47, 0, 255);
+        position: relative;
+        top: 25%;
+        left: 25%;
+        z-index: 1;
+    }
+
+    .div3 {
         width: 100px;
-        background-color: crimson;
-        transition: 0.25s ease-in-out;
+        height: 100px;
+        background-color: rgb(0, 255, 0);
+        position: relative;
+        top: 25%;
+        left: 25%;
     }
 
-    #checkbox-menu:checked + label .menus {
-        display: block;
+    .div4 {
+        background-color: rgb(0, 0, 0);
+        
+
     }
+
 
 </style>
 
 <body>
     
-  <div class="container">
-      <input type="checkbox" name="" id="checkbox-menu">
-      <label for="checkbox-menu">
-          <span></span>
-          <span></span>
-          <span></span>
-          <div class="menus">
-              <ul>
-                  <li>Contato</li>
-                  <li>Fale Conosco</li>
-                  <li>Sair</li>
-              </ul>
+  <div class="div1">
+      <div class="div2">
+          <div class="div3">
+
           </div>
-      </label>
+      </div>
   </div>
+  <div class="div2 div4">
+
+</div>
 
 </body>
 
