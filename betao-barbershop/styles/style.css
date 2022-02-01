@@ -130,7 +130,7 @@ nav > a {
 }
 
 .escurecimento {
-    background-color: #000000d2;
+    background-color: #00000094;
     height: 100%;
     width: 100%;
 }
@@ -214,10 +214,12 @@ ul a:hover {
 
 
     /* Classes Gerais *//* Classes Gerais *//* Classes Gerais */
+    
+    /* Menus */
     .menu-classico{
         display: none;
     }
-
+    
     .menu-mobile{
         display: block;
         position: relative;
@@ -226,7 +228,6 @@ ul a:hover {
     .menu-mobile label{
         height: 8vh;
         width: 8vh;
-        /* background-color: #e27800; */
         display: block;
         position: absolute;
         top: 0px;
@@ -246,6 +247,9 @@ ul a:hover {
     margin-top: 2vh;
     }
 
+    
+
+    /* Botoes */
     .botao {
         border-radius: 20vh;
     }
