@@ -29,94 +29,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--fonte2);
-    
-
-}
-
-h2 {
-    font-family: var(--fonte1);
-    color: var(--cor2);
-}
-
-a {
-    text-decoration: none;
-}
-header {
-    background-color: white;
-    box-shadow: 0px 2px 8px 0px black;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    top: 0;
-}
-
-.container{
-    max-width: var(--larg-padrao);
-
-    margin: auto;
-    
-}
-
-.pos-rel {
-    position: relative;
-}
-
-.cont-header {
-    position: relative;
-}
-
-
-.menu-classico > div > h1{
-    font-family: var(--fonte1);
-    color: var(--cor2);
-    width: 150px;
-    margin: 5px 10px;
-}
-
-.menu-mobile{
-    display: none;
-}
-
-nav {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-}
-
-nav > a {
-    text-decoration: none;
-    font-family: var(--fonte2);
-    font-weight: 500;
-    color: black;
-    margin-left: 20px;
-}
-
-.botao{
-    background-color: var(--cor3);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-}
-
-.botao:hover{
-    transition-duration: 0.5s;
-    background-color: var(--cor1);
-   
-}
-
-
-.fundo{
-
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
 .banner {
     background-image: url('../images/barbearia-fundo.jpg');
     /* min-width: 504px; */
@@ -166,19 +78,13 @@ nav > a {
     background-image: url('../images/desenho-pente-tesoura.jpg');
 }
 
-.clareamento {
-    background-color: #ffffffad;
-}
+
 
 .padding-ap {
     padding: 50px 0px;
 }
 
-.escurecimento {
-    background-color: #000000d2;
-    height: 100%;
-    width: 100%;
-}
+
 
 .cont-ap {
  /*    padding: 2px; */
@@ -189,7 +95,7 @@ nav > a {
 
 .quad-ap {
     display: inline-block;
-    width: 31.6%;
+    width: 30.6%;
     height: 580px;
    /*  background-color: yellow; */
     padding: 10px;
@@ -215,9 +121,7 @@ nav > a {
     margin-top: 45%;
 }
 
-.marg {
-    margin: 20px 0px;
-}
+
 
 #quad3 {
     background-image: url('../images/contando-cabelo-3.jpg');
@@ -435,51 +339,6 @@ Estilos do Footer
 
 
 
- .footer1 {
-     background-image: url('../images/desenho-pente-tesoura.jpg');
-     
- }
-
- .footer1-cont {
-     padding: 0px 0px;
-     width: 570px;
-     margin: auto;
- }
-
- .quad-footer1 {
-     display: inline-block;
-     height: 80%;
-     margin: 20px
- }
-
- .footer1-cont  h4 {
-     font-family: var(--fonte1);
-     font-weight: 500;
-     font-size: 30px;
-     color: var(--cor2);
-     margin: 10px 0px;
- }
-
- .footer1-cont  li {
-    list-style: none;
-}
-
-ul a {
-    color: black;
-}
-
-ul a:hover {
-    font-weight: 700;
-}
-
-
-.footer2 {
-    background-color: #181818;
-    color: #ffffff;
-    text-align: center;
-    padding: 15px;
-    line-height: 30px;
-}
 
 
 /* Medias querys */
@@ -492,67 +351,6 @@ ul a:hover {
 
 @media (min-width: 320px) and (max-width: 759px){
   
-    * {
-        max-width: 100vw;
-        
-    }
-
-    body {
-        max-width: 100vw;
-        padding: -1px;
-    }
-
-    header {
-        max-width: calc(100vw -1px);
-        z-index: 1;
-        height: 8vh;
-        
-    }
-
-    .menu-classico{
-        display: none;
-    }
-
-    .menu-mobile{
-        display: block;
-        position: relative;
-
-    }
-
-   .menu-mobile label{
-        height: 50px;
-        width: 50px;
-        background-color: #e27800;
-        display: block;
-        position: absolute;
-        top: 10px;
-        right: 10px;
-
-   }
-
-
-
-
-
-
-
-
-
-
-    .botao {
-       
-        border-radius: 20vh;
-    }
-
-    .container {
-        max-width: calc(100vw);
-        margin: auto;
-    }
-
-    main {
-        overflow: hidden;
-    }
-
     /* Section Banner */
 
     .banner {
@@ -565,7 +363,6 @@ ul a:hover {
         position: relative;
     } 
 
-
     .conteudo-banner {
        padding: 0;
        width: 95vw;
@@ -573,7 +370,6 @@ ul a:hover {
        top: 50%;
        left: 50%;
        transform: translate(-50%,-50%);
-        
     }
 
     .conteudo-banner > img {
@@ -586,22 +382,16 @@ ul a:hover {
 
     .conteudo-banner > h2 {
         font-size: 4vw;
-    
     }
 
     .conteudo-banner > h3 {
         font-size: 4vw;
-    
     }
 
-
-
     /* section apresentacao */
-
     section.fundo.apresentacao {
         padding: 0 0 150vw 0;
     }
-
     .quad-ap{
         display: block;
         width: 95vw;
@@ -609,7 +399,6 @@ ul a:hover {
         margin-right: auto;
         margin-bottom: 0;
         margin-top: 0;
-
     }
 
     #quad1 {
@@ -638,9 +427,7 @@ ul a:hover {
         background-color: chartreuse;
     }
 
-
     .cont-quad {
-        
         position: absolute;
         padding: 0;
         top: 50%;
@@ -649,10 +436,8 @@ ul a:hover {
     }
 
     .cont-quad > h2 {
-       
         font-size: 20vw;
     }
-
 
     /* section servicos */
     .topo-servicos > img {
@@ -662,7 +447,6 @@ ul a:hover {
     .topo-servicos > h2 {
         font-size: 17vw;
     }
-
 
     .topo-servicos > p {
         font-size: 5vw;
@@ -687,20 +471,15 @@ ul a:hover {
         text-align: center;
         padding: 5vw 0;
         margin: 10vw auto;
-     
     }
 
-
     /* section cortesia */
-
     .quad-cortesia {
-        /* display: inline-block; */
         width: 80vw;
         height: 84vh;
         margin: 10vw;
         overflow: visible;
     }
-
 
     .cont-cortesia {
         height: 40vh;
@@ -711,16 +490,13 @@ ul a:hover {
         background-image: url('../images/barbearia-entrada.jpg');
         background-position: left center;
         background-size: cover;
-        
     }
+
     .quad-img > img {
         display: none;
-        
     }
 
-
     /* Contato */
-
     .contato {
         height: 100vh;
     }
@@ -736,76 +512,6 @@ ul a:hover {
     .container-contato {
         font-size: max(8vw, 39px);
     }
-
-
-    /* Footer */
-    .quad-footer1 {
-        display: block;
-        width: 80vw;
-        margin: 5vw auto;
-        text-align: center;
-        font-size: 5vw;
-    }
-
-    .footer1-cont h4 {
-        /* font-family: var(--fonte1); */
-        /* font-weight: 500; */
-        font-size: 8vw;
-        /* color: var(--cor2); */
-        /* margin: 10px 0px; */
-    }
-
-
-    
-    main {
-        overflow: hidden;
-    }
-
-
-
-    .footer1-cont {
-        max-width: 100vw;
-    }
-
-
-
-   
-
-  /*   header{
-        overflow: hidden;
-    }
-    
-    .banner {
-        overflow: hidden;
-    }
-
-    .apresentacao {
-        overflow: hidden;
-    }
-
-    .servicos {
-        overflow: hidden;
-    }
-
-    .cortesia {
-        overflow: hidden;
-    }
-
-    .contato {
-       overflow: hidden;
-    }
- */
-
-
-
-
-
-
-
-
-
-
-    
 }
 
 
@@ -815,15 +521,9 @@ ul a:hover {
 /* Medias querys  para telas medias*/
 
 @media (min-width: 760px) and (max-width: 959px){
-    .container{
-        max-width: 720px;
-    
-        margin: auto;
-        
-    }
 
     .quad-ap {
-        width: 48.4%;
+        width: 46.4%;
     }
 
    #quad2, #quad2 img {
@@ -852,7 +552,7 @@ body {
 }
     
 }
-
+/* 
 @media screen and (min-width: 1920px){
     
     body {
@@ -877,4 +577,4 @@ body {
         zoom: 2.1;
     }
         
-    }
+    } */
