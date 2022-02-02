@@ -112,8 +112,15 @@ section {
 /* Completo *//* Completo *//* Completo */
 /* Completo *//* Completo *//* Completo */
 
+
+
 .impar {
     background-image: url('../images/desenho-pente-tesoura.jpg');
+    min-height: 500px;
+}
+
+.par {
+    background-color: var(--cor5);
     min-height: 500px;
 }
 
@@ -152,11 +159,61 @@ section {
     height: 100%;
     object-fit: contain
 }
-/* Cabelo *//* Cabelo *//* Cabelo */
-/* Cabelo *//* Cabelo *//* Cabelo */
-/* Cabelo *//* Cabelo *//* Cabelo */
 
-.par {
-    background-color: var(--cor5);
-    min-height: 500px;
+@media (min-width: 760px) and (max-width: 959px) {
+    :root {
+        --larg-padrao: 700px;
+    }
+    
+    footer {
+        overflow: visible;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 759px) {
+    * {
+        color: red;
+    }
+
+    .banner {
+        max-height: 110vh;
+    }
+
+    .itens-banner {
+        position: relative;
+        height: 100%;
+    }
+
+    .cont-banner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+
+    .quad {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .quad h2, .quad h3 {
+        font-size: min(15vw, 15vh);
+        display: block;
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .quad p {
+        font-size: min(10vw, 10vh);
+        font-weight: 500;
+        line-height: 7vh;
+    }
+
+    .cont-quad {
+        padding: 0;
+        height: 110vh;
+    }
 }
