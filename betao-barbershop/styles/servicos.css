@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Raleway:ital,wght@0,200;0,400;0,500;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+:root {
+    
+    /* Lista de Cores */
+    --cor1: #442d1b;
+    --cor2: #613e28;
+    --cor3: #84522f;
+    --cor4: #e27800;
+    --cor5: #f3a038;
+
+    /* Lista de Fontes */
+    --fonte1: 'Damion', cursive;
+    --fonte2: 'Raleway', sans-serif;
+
+    /* Lista de Larguras */
+    --larg-padrao: 920px;
+    --larg-min: 504px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  body {
+    overflow: hidden;
+} */
+
+/* Tags Gerais *//* Tags Gerais *//* Tags Gerais */
+/* Tags Gerais *//* Tags Gerais *//* Tags Gerais */
+/* Tags Gerais *//* Tags Gerais *//* Tags Gerais */
+
+h1, h2 {
+    font-family: var(--fonte1);
+    color: var(--cor1);
+}
+
+h3, h4 {
+    font-family: var(--fonte2);
+    color: var(--cor1);
+}
+
+
+/* Clases Gerais *//* Clases Gerais *//* Clases Gerais */
+/* Clases Gerais *//* Clases Gerais *//* Clases Gerais */
+/* Clases Gerais *//* Clases Gerais *//* Clases Gerais */
+
+.container {
+    max-width: var(--larg-padrao);
+}
+
+.fundo {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.escurecimento {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.clareamento {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+section {
+    overflow: hidden;
+}
+
+/* Banner *//* Banner *//* Banner */
+/* Banner *//* Banner *//* Banner */
+/* Banner *//* Banner *//* Banner */
+
+.banner{
+    height: 900px;
+    background-image: url('../images/barbearia-cheia.jpg');
+}
+
+.cont-banner {
+    padding: 40% 0;
+    width: 400px;
+    margin-right: 80%;
+}
+
+.cont-banner h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.cont-banner img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* Completo *//* Completo *//* Completo */
+/* Completo *//* Completo *//* Completo */
+/* Completo *//* Completo *//* Completo */
+
+.impar {
+    background-image: url('../images/desenho-pente-tesoura.jpg');
+    min-height: 500px;
+}
+
+.quad {
+    display: inline-block;
+    margin: 5% 1%;
+    width: 47%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.cont-quad {
+    padding: 11.3% 0;
+}
+
+.cont-quad h2, .cont-quad h3 {
+    display: inline-block;
+    font-size: 50px;
+    width: 49%;
+}
+ 
+.cont-quad h3 {
+    text-align: right;
+}
+
+.cont-quad p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-top: 5%;
+}
+
+.img-quad img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+/* Cabelo *//* Cabelo *//* Cabelo */
+/* Cabelo *//* Cabelo *//* Cabelo */
+/* Cabelo *//* Cabelo *//* Cabelo */
+
+.par {
+    background-color: var(--cor5);
+    min-height: 500px;
+}
