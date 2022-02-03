@@ -171,9 +171,6 @@ section {
 }
 
 @media (min-width: 320px) and (max-width: 759px) {
-    * {
-        color: red;
-    }
 
     .banner {
         max-height: 110vh;
@@ -189,7 +186,11 @@ section {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        
+    }
+
+    .par .container, .impar .container {
+        position: relative;
+        height: max(290vw, 1000px);
     }
 
     .quad {
@@ -203,17 +204,35 @@ section {
         display: block;
         width: 90%;
         text-align: center;
-
     }
 
     .quad p {
-        font-size: min(10vw, 10vh);
+        font-size: 7vw;
         font-weight: 500;
-        line-height: 7vh;
+        line-height: 7vw;
     }
 
     .cont-quad {
         padding: 0;
-        height: 110vh;
+        height: 120vw;
+        position: absolute;
+        top: 10vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .img-quad {
+        position: absolute;
+        top: 125vw;
+    }
+
+    .cont-quad, .img-quad {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .footer1 .container{
+        max-width: 90vw;
     }
 }
