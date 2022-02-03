@@ -13,58 +13,21 @@
         padding: 0;
         box-sizing: border-box;
     }
-    html, body {
-        height: 100%;
-    }
-
-    .div1 {
-        width: 500px;
-        height: 500px;
-        background-color: red;
-        position: relative;
-        z-index: 10;
-    }
-
-    .div2 {
-        width: 200px;
-        height: 200px;
-        background-color: rgb(47, 0, 255);
-        position: relative;
-        top: 25%;
-        left: 25%;
-        z-index: 1;
-    }
-
-    .div3 {
-        width: 100px;
-        height: 100px;
-        background-color: rgb(0, 255, 0);
-        position: relative;
-        top: 25%;
-        left: 25%;
-    }
-
-    .div4 {
-        background-color: rgb(0, 0, 0);
-        
-
-    }
-
 
 </style>
 
 <body>
-    
-  <div class="div1">
-      <div class="div2">
-          <div class="div3">
+    <div class="wrapper">
+        <div class="form-group">
+          <input class="radi" name="theradio" id="radio1" type='radio'/>
+          <label for="radio1">A radio</label>
+        </div>
+        <div class="form-group">
+          <input class="radio" name="theradio" id="radio" type='radio' />
+          <label for="radio2">Another radio</label>
+        </div>
 
-          </div>
-      </div>
-  </div>
-  <div class="div2 div4">
-
-</div>
+    </div>
 
 </body>
 

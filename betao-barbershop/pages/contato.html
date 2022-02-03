@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contato.css">
+</head>
+<body>
+    <header>
+        <div class="fundo-header"></div>
+        <div class="menu-classico">
+            <div class="container cont-header">
+                <h1>Barbershop</h1>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="pages/servicos.html">Serviços</a>
+                    <a href="#" class="botao">Contato</a>
+                </nav>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <input type="checkbox" id="mobile">
+            <label for="mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+                <nav class="itens-menu-mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/servicos.html">Serviços</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </label>
+        </div>
+
+    </header>
+    <main>
+        <section class="banner fundo">
+            <div class="escurecimento">
+                <div class="container">
+                    <div class="cont-banner">
+                        <h1>Agende seu Horário</h1>
+                        <h2>(00)900000000</h2>
+                        <img src="../images/png/bigode-branco-sem-fundo.png" alt="desenho de um bigode">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="formu fundo">
+            <div class="clareamento">
+                <div class="container">
+                    <div class="topo-formu">
+                        <h1>Entre em contato</h1>
+                        <p>Envie sua dúvida ou sugestão preenchendo o formulário abaixo.</p>
+                    </div>
+                    <form action="">
+                        <label for="name">Nome: <br>
+                            <input type="text" id="name" required>
+                        </label>
+                        
+                        <div class="quad">
+                            <label for="tel" >Telefone: <br>
+                                <input type="number" id="tel" required>
+                            </label>
+                            
+                        </div>
+                        <div class="quad">
+                            <label for="email" >E-mail: <br>
+                                <input type="email" id="email">
+                            </label>
+                            
+                        </div>
+                       
+                        <div class="quad">
+                            <label for="know">Como você nos conheceu? <br>
+                                <select id="know">
+                                    <option value="">Amigos</option>
+                                    <option value="">Família</option>
+                                    <option value="">Instagram</option>
+                                    <option value="">Google</option>
+                                    <option value="">Outros</option>
+                                </select>
+                            </label>
+                        </div>
+                        
+                        <div class="tipo-contato quad">
+                            <label for="">Como deseja ser contatado?</label>
+                            
+                            <div class="itens-tipo-contato">
+                                <span>
+                                    <input type="radio" id="radio1" name="contact">
+                                    <label for="radio1">WhatsApp</label>
+                                </span>
+                                <span>
+                                    <input type="radio" id="radio2" name="contact">
+                                    <label for="radio2">E-mail</label>
+                                </span>
+                                <span>
+                                    <input type="radio" id="radio3" name="contact">
+                                    <label for="radio3">SMS</label>
+                                </span>
+                                <span>
+                                    <input type="radio" id="radio4" name="contact">
+                                    <label for="radio4">Ligação</label>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="comentarios">
+                            <label for="coment">Sugestões e Dúvidas: <br>
+                                <textarea name="" id="coment">
+                            
+                                </textarea>
+                            </label>
+                            <br>
+                            <label for="promo">
+                                <input type="checkbox" id="promo" required>
+                                Desejo receber ofertas e promoções.
+                            </label>
+                            
+                        </div>
+                        <input type="submit" value="Enviar Agora">
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <section class="footer1 fundo">
+            <div class="clareamento">
+                <div class="container footer1-cont">
+                    <div class="quad-footer1">
+                        <h4>Redes Sociais</h4>
+                        <ul>
+                            <a href="#">
+                                <li>Facebook</li>
+                            </a>
+                            <a href="#">
+                                <li>Instagram</li>
+                            </a>
+                            <a href="#">
+                                <li>WhatsApp</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="quad-footer1">
+                        <h4>Nos encontre em:</h4>
+                        <p><img src="" alt=""> Rua Aleatória, S/N ,Bairro - Cidade - Estado</p>
+                        <p><img src="" alt=""> (00)90000-0000</p>
+                        <p><img src="" alt=""> barbershop@email.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer2">
+            <p> Gustavo LTDA.© 2022 Barber Shop | Criado por Gustavo Santos</p>
+            <p>Todos as imagens são meramente ilustrativas e seus direitos pertencem aos seu autores.</p>
+        </section>
+    </footer>
+</body>
+</html>
