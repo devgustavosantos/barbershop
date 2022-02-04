@@ -252,7 +252,7 @@ ul a:hover {
         z-index: 3;
         position: fixed;
         top: 0;
-        height: 8vh;
+        height: max(8vw, 8vh);
         
     }
 
@@ -275,8 +275,8 @@ ul a:hover {
     }
 
     .menu-mobile label{
-        height: 8vh;
-        width: 8vh;
+        height: max(8vh, 8vw);
+        width: max(8vw, 8vh);
         display: block;
         position: fixed;
         top: 0px;
@@ -325,7 +325,7 @@ ul a:hover {
 
     .itens-menu-mobile{
         position: fixed;
-        top: 22vh;
+        top: max(22vh, 89px);
         left: 0;
         z-index: 0;
         background-color: white;

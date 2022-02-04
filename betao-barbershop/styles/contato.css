@@ -178,6 +178,10 @@ form input[type=number], form input[type=email] {
     text-align: center;
 }
 
+.tipo-contato span {
+    margin-left: 25px;
+}
+
 .tipo-contato span label{
     margin-top: 5px;
     font-size: 15px;
@@ -292,6 +296,7 @@ input[type=submit] {
 
     .itens-tipo-contato span {
         display: block;
+        margin-left: initial;
     }
 
     .itens-tipo-contato span label {
@@ -315,5 +320,22 @@ input[type=submit] {
         width: 90vw;
         margin: 5vw;
         text-align: center;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 959px) {
+    /* Gerais */
+    .container {
+        max-width: 720px;
+    }
+
+    /* Topo do formulário */
+    .topo-formu {
+        width: 60%;
+    }
+    
+    /* Formulário */
+    .tipo-contato span {
+        margin-left: 4px;
     }
 }
