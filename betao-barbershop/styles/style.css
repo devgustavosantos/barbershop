@@ -150,6 +150,40 @@ nav > a:hover {
     margin: 20px 0px;
 }
 
+/* 
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+Estilos da seção 5 - Contato
+ */
+
+ .contato {
+    height: 850px;
+    background-image: url('../images/fundo-tesouras.jpg');
+}
+
+
+
+.container-contato {
+    text-align: center;
+    color: white;
+    padding: 220px 0px;
+    font-size: 4.5em;
+    font-family: var(--fonte1);
+}
+
+.container-contato > #emoji {
+   font-size: 2em;
+}
+
+#telefone {
+    font-family: var(--fonte2);
+}
+
+
+
+
 .footer1 {
     background-image: url('../images/desenho-pente-tesoura.jpg');
     
@@ -264,9 +298,9 @@ ul a:hover {
         margin-top: 2vh;
     }
 
-    #mobile:checked+label span {
-        /* background-color: violet; */
-    }
+    /* #mobile:checked+label span {
+        background-color: violet;
+    } */
 
     #mobile:checked+label span:nth-child(1) {
         margin: 0;
@@ -323,6 +357,23 @@ ul a:hover {
     .container {
         max-width: calc(100vw);
         margin: auto;
+    }
+
+    /* Contato */
+    .contato {
+        height: 100vh;
+    }
+
+    .container-contato {
+        position: absolute;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container-contato {
+        font-size: max(8vw, 39px);
     }
 
     .quad-footer1 {

@@ -303,7 +303,7 @@ Estilos da seção 5 - Contato
 Estilos da seção 5 - Contato
  */
 
- .contato {
+/*  .contato {
      height: 850px;
      background-image: url('../images/fundo-tesouras.jpg');
  }
@@ -326,7 +326,7 @@ Estilos da seção 5 - Contato
      font-family: var(--fonte2);
  }
 
-
+ */
 
 
  /* 
@@ -497,7 +497,7 @@ Estilos do Footer
     }
 
     /* Contato */
-    .contato {
+    /* .contato {
         height: 100vh;
     }
 
@@ -511,7 +511,7 @@ Estilos do Footer
 
     .container-contato {
         font-size: max(8vw, 39px);
-    }
+    } */
 }
 
 

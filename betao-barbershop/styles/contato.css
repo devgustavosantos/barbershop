@@ -60,6 +60,16 @@ section {
     overflow: hidden;
 }
 
+.bot-contato {
+    border: none;
+    margin: 20px 0;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: var(--fonte2);
+    font-weight: 600;
+}
+
 
 
 /* Outros *//* Outros *//* Outros */
@@ -191,6 +201,11 @@ textarea {
     margin-left: 1px;
 }
 
+.ofertas {
+    position: relative;
+    left: 6px;
+}
+
 input[type=submit] {
     margin-left: 5px;
     padding: 5px 10px;
@@ -198,4 +213,107 @@ input[type=submit] {
 
 .mapa iframe {
     width: 100vw;
+}
+
+
+
+/* media queries *//* media queries *//* media queries */
+/* media queries *//* media queries *//* media queries */
+/* media queries *//* media queries *//* media queries */
+
+@media (min-width: 320px) and (max-width: 759px) {
+    
+    /* Tags gerais */
+    .bot-contato {
+        display: block;
+        margin: 7vw auto 0 auto;
+        width: max(30vw, 120px);
+        height: max(10vw, 40px);
+        font-size: max(3vw, 15px);
+    }
+    
+    
+    /* section banner */
+    .banner {
+        height: 110vh;
+    }
+    
+    .banner .container {
+        position: relative;
+        height: 100%;
+    }
+
+   .cont-banner {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       font-size: 5vw;
+       margin: initial;
+       width: initial;
+       padding: initial;
+       height: initial;
+   }
+
+   .cont-banner h1, .cont-banner h2, .cont-banner img{
+        font-size: max(10vw, 7vh);
+    }
+
+    /* Topo do formumario */
+    .topo-formu {
+        width: 90vw;
+    }
+
+    .topo-formu h1 {
+        font-size: 14vw;
+    }
+
+    .topo-formu p {
+        font-size: 5vw;
+        font-weight: 600;
+        margin: 7vw auto;
+    }
+
+    /* Formulario */
+    .quad, .comentarios {
+        width: 97%;
+        display: block;
+        margin-top: 5vw;
+    }
+
+    form label {
+        font-size: 6vw;
+    }
+
+    form input, #know {
+        /* margin: 2px 0; */
+        padding: 3vw;
+    }
+
+    .itens-tipo-contato span {
+        display: block;
+    }
+
+    .itens-tipo-contato span label {
+        font-size: 4vw;
+    }
+
+    textarea {
+        margin: 5vw 0;
+    }
+    .ofertas {
+        font-weight: 500;
+        font-size: 4.6vw;
+    }
+
+    input[type=submit] {
+        margin-left: auto;
+    }
+
+    .quad-footer1 {
+        display: block;
+        width: 90vw;
+        margin: 5vw;
+        text-align: center;
+    }
 }

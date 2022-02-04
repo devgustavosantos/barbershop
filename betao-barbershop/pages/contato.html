@@ -17,8 +17,8 @@
                 <h1>Barbershop</h1>
                 <nav>
                     <a href="../index.html">Home</a>
-                    <a href="../pages/servicos.html">Serviços</a>
-                    <a href="#" class="botao">Contato</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html" class="botao">Contato</a>
                 </nav>
             </div>
         </div>
@@ -31,8 +31,8 @@
                 <nav class="itens-menu-mobile">
                     <ul>
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="../pages/servicos.html">Serviços</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -61,19 +61,19 @@
                         <p>Envie sua dúvida ou sugestão preenchendo o formulário abaixo.</p>
                     </div>
                     <form action="">
-                        <label for="name" id="label-nome">Nome: <br>
-                            <input type="text" id="name" required>
+                        <label for="name" id="label-nome" >Nome: <br>
+                            <input type="text" id="name" placeholder="Seu nome aqui!"required>
                         </label>
                         
                         <div class="quad">
                             <label for="tel" >Telefone: <br>
-                                <input type="number" id="tel" required>
+                                <input type="number" id="tel" placeholder="(00)00000-0000" required>
                             </label>
                             
                         </div>
                         <div class="quad">
                             <label for="email" >E-mail: <br>
-                                <input type="email" id="email">
+                                <input type="email" id="email" placeholder="seu@email.com">
                             </label>
                             
                         </div>
@@ -114,18 +114,20 @@
                         </div>
                         <div class="comentarios">
                             <label for="coment">Sugestões e Dúvidas: <br>
-                                <textarea name="" id="coment">
-                            
+                                <textarea name="" id="coment" >
+                                 
                                 </textarea>
                             </label>
-                            <br>
-                            <label for="promo">
+                        </div>
+
+                            <label for="promo" class="ofertas">
                                 <input type="checkbox" id="promo" required>
                                 Desejo receber ofertas e promoções.
                             </label>
+                            <br>
                             
-                        </div>
-                        <input type="submit" value="Enviar Agora">
+                        
+                        <input type="submit" value="Enviar Agora" class="botao bot-contato">
                     </form>
                 </div>
             </div>
@@ -136,7 +138,14 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d914.4126676128847!2d-46.43432633398866!3d-23.5450635697581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6425fe9aa201%3A0xaf51544bd73cd2de!2sRua%20Francisco%20Albani%2C%20981%20-%20Conj.%20Res.%20Jos%C3%A9%20Bonif%C3%A1cio%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008255-740!5e0!3m2!1spt-BR!2sbr!4v1643939564161!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
-        
+        <section class="contato fundo">
+            <div class="escurecimento pos-rel">
+                <div class="container container-contato">
+                    <div id="emoji">&#x1F4F2</div>
+                    <p>Ligue ou mande um ZAP para <strong id="telefone">(00)900000000</strong></p>
+                </div>
+            </div>
+        </section>
 
     </main>
     <footer>
