@@ -361,7 +361,7 @@ ul a:hover {
 
     /* Contato */
     .contato {
-        height: 100vh;
+        height: 110vh;
     }
 
     .container-contato {
@@ -413,7 +413,7 @@ ul a:hover {
     }
 
     .apresentacao .clareamento {
-        background-color: initial;
+        /* background-color: initial; */
     }
 
     

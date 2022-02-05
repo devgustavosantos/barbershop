@@ -29,10 +29,6 @@
     box-sizing: border-box;
 }
 
-
-section {
-    overflow: hidden;
-}
 .banner {
     background-image: url('../images/barbearia-fundo.jpg');
     /* min-width: 504px; */
@@ -92,8 +88,8 @@ section {
 
 .cont-ap {
  /*    padding: 2px; */
- /* height: 640px; */
- /* position: relative; */
+    height: 640px;
+    /* position: relative; */
 }
 
 
@@ -391,7 +387,7 @@ Estilos do Footer
 
     /* section apresentacao */
     section.fundo.apresentacao {
-        /* padding: 0 0 150vw 0; */
+        padding: 0 0 150vw 0;
     }
     .quad-ap{
         display: block;
@@ -420,7 +416,7 @@ Estilos do Footer
     }
 
     .bot-ap {
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     #quad2 {
