@@ -190,7 +190,7 @@ section {
 
     .par .container, .impar .container {
         position: relative;
-        height: 175vh;
+        height: max(290vw, 1000px);
     }
 
     .quad {
@@ -242,6 +242,6 @@ section {
 @media (min-aspect-ratio: 10/8) and (max-width: 759px) {
 
     .par .container, .impar .container {
-        height: 400vh;
+        height:  max(400vh, 1460px);
     }
 }
