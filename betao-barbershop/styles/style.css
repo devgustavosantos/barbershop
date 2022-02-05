@@ -404,7 +404,7 @@ ul a:hover {
 
     .menu-mobile label {
         height: min(35vh, 50px);
-        top: 1.5vh;
+        top: 3vh;
     }
 
     #mobile:checked+label span:nth-child(1), #mobile:checked+label span:nth-child(3) {
