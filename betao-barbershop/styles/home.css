@@ -355,7 +355,7 @@ Estilos do Footer
 
     .banner {
         max-width: calc(100vw);
-        height: max(349px, 100vh);
+        height: max(349px, 110vh);
         
     }
 
@@ -377,7 +377,7 @@ Estilos do Footer
     }
 
     .conteudo-banner > h1 {
-        font-size: 17vw;
+        font-size: 13vw;
     }
 
     .conteudo-banner > h2 {

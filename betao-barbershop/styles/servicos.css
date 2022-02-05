@@ -190,7 +190,7 @@ section {
 
     .par .container, .impar .container {
         position: relative;
-        height: max(290vw, 1000px);
+        height: max(230vw, 1000px);
     }
 
     .quad {
