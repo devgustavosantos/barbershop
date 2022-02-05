@@ -379,7 +379,8 @@ ul a:hover {
     .quad-footer1 {
         display: block;
         width: 80vw;
-        margin: 5vw auto;
+        margin: auto;
+        padding: 2vw;
         text-align: center;
         font-size: 5vw;
     }
