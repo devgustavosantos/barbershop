@@ -242,6 +242,6 @@ section {
 @media (min-aspect-ratio: 10/8) and (max-width: 759px) {
 
     .par .container, .impar .container {
-        height:  max(400vh, 1460px);
+        height:  max(400vh, 1500px);
     }
 }
