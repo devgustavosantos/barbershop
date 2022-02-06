@@ -315,12 +315,12 @@ input[type=submit] {
         margin-left: auto;
     }
 
-    .quad-footer1 {
+    /* .quad-footer1 {
         display: block;
         width: 90vw;
         margin: 5vw;
         text-align: center;
-    }
+    } */
 }
 
 @media (min-width: 760px) and (max-width: 949px) {

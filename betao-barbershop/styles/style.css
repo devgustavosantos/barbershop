@@ -284,6 +284,10 @@ ul a:hover {
         z-index: 3;
     }
 
+    .menu-mobile label:hover{ 
+        cursor: pointer;
+    }
+
     .menu-mobile label span {
         width: 70%;
         height: 10%;
@@ -390,7 +394,8 @@ ul a:hover {
     }
     
     .footer1-cont {
-        max-width: 100vw;
+        width: initial;
+        
     }
 }
 
