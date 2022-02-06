@@ -260,7 +260,7 @@ input[type=submit] {
    }
 
    .cont-banner h1, .cont-banner h2, .cont-banner img{
-        font-size: max(8vw, 7vh);
+        font-size: max(8vw, 6vh);
     }
 
     /* Topo do formumario */
@@ -323,7 +323,7 @@ input[type=submit] {
     }
 }
 
-@media (min-width: 760px) and (max-width: 959px) {
+@media (min-width: 760px) and (max-width: 949px) {
     /* Gerais */
     .container {
         max-width: 720px;
