@@ -158,7 +158,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding-top: min(80px, 25vw);
+    padding-top: min(70px, 20vw);
 }
 
 @media (min-width: 760px) and (max-width: 949px) {
@@ -208,15 +208,9 @@ section {
     }
 
     .quad p {
-        font-size: max(20px, 6.5vw);
+        font-size: 7vw;
         font-weight: 500;
         line-height: 7vw;
-    }
-
-    .cont-quad, .img-quad {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
     }
 
     .cont-quad {
@@ -230,10 +224,14 @@ section {
 
     .img-quad {
         position: absolute;
-        bottom: min(50px, 5vh);
+        top: 125vw;
     }
 
-    
+    .cont-quad, .img-quad {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     .footer1 .container{
         max-width: 90vw;
