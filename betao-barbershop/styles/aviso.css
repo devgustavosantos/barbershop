@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Raleway:ital,wght@0,200;0,400;0,500;0,600;0,800;1,200;1,400;1,600;1,800&display=swap');
+
+:root {
+    
+    /* Lista de Cores */
+    --cor1: #442d1b;
+    --cor2: #613e28;
+    --cor3: #84522f;
+    --cor4: #e27800;
+    --cor5: #f3a038;
+
+    /* Lista de Fontes */
+    --fonte1: 'Damion', cursive;
+    --fonte2: 'Raleway', sans-serif;
+
+    /* Lista de Larguras */
+    --larg-padrao: 920px;
+    --larg-min: 504px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.aviso {
+    background-image: url('../images/barbearia-vazia.jpg');
+    height: 120vh;
+
+}
+
+.aviso .escurecimento {
+    position: relative;
+}
+
+.aviso .container {
+    border-radius: 2vw;
+    width: 90vw;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aviso .container h1, .aviso .container p, .aviso .container a {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.aviso .container h1 {
+    font-family: var(--fonte1);
+    color: var(--cor4);
+    font-size: min(30vw, 75px);
+    text-shadow: 0px 0px 5px black;
+}
+
+.aviso .container p {
+    font-family: var(--fonte2);
+    font-size: min(10vw, 25px);
+    font-weight: 600;
+    padding: 5vw;
+    margin-bottom: min(30vw, 80px);
+}
+
+.aviso .container a {
+    background-color: var(--cor4);
+    position: absolute;
+    left: 50%;
+    bottom: 5vw;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 5px 0px black;
+    font-weight: 600;
+
+}
