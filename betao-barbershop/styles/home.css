@@ -389,7 +389,7 @@ Estilos do Footer
 
     .quad-ap{
         display: block;
-        width: 95vw;
+        width: 80vw;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 0;
@@ -491,24 +491,18 @@ Estilos do Footer
         display: none;
     }
 
-    /* Contato */
-    /* .contato {
-        height: 100vh;
+
+
+@media (min-aspect-ratio: 10/8) and (max-width: 759px) {
+    .quad-servicos {
+        margin: 5vw 20vw;
+        width: 60vw;
     }
 
-    .container-contato {
-        position: absolute;
-        padding: 0;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .quad-servicos > h3 {
+    font-size: 6vw;
     }
-
-    .container-contato {
-        font-size: max(8vw, 39px);
-    } */
 }
-
 
 
 
