@@ -33,7 +33,7 @@
 
 .aviso {
     background-image: url('../images/barbearia-vazia.jpg');
-    height: min(100vh, 530px);
+    height: max(100vh, 530px);
 
 }
 
