@@ -51,18 +51,13 @@ Este é o meu primeiro projeto é a minha primeira ladding page feita inteiramen
 - [x] Menu mobile;
 - [x] Responsividade;
 - [x] Cabeçalho
-- [x] Home;
-   - [x] Banner;
-   - [x] Apresentação;
+- [x] Areas com:
+   - [x] Banners;
+   - [x] Apresentações;
    - [x] Tipos de serviço;
    - [x] Relatos de Cliente
    - [x] Endereço, telefones, horários;
-- [x] Sobre;
    - [x] Breve apresentação;
-   - [x] Infos de vários anos.
-   - [x] Infos de alguns profissionais
-- [x] Contato;
-   - [x] Infos de contato
    - [x] Mapa com o endereço
    - [x] Formulário de contato
 
